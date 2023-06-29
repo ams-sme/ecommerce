@@ -10,4 +10,7 @@ class Sales:
         self.price = price
 
 
+    def price(self):
+        print("Price:",self.price)
+
 
