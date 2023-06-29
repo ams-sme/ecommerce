@@ -1,8 +1,6 @@
 class Product():
     pass
 
-
-
 class Sales: 
     def __init__(self, product_id, product_name, price):
         self.product_id = product_id
@@ -10,10 +8,10 @@ class Sales:
         self.price = price
 
 
-    def price(self):
+    def show_price(self):
         print("Price:",self.price)
 
-    def Product_name(self):
+    def show_product_name(self):
         print("Product Name:",self.product_name)
 
 
