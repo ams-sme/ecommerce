@@ -13,4 +13,7 @@ class Sales:
     def price(self):
         print("Price:",self.price)
 
+    def Product_name(self):
+        print("Product Name:",self.product_name)
+
 
